@@ -136,7 +136,7 @@ class LibraryUI {
   }
 
   setupFilterDropdowns() {
-    /* Creates the filter dropdowns for genres and authors */
+    /* Creates the filter dropdowns for the genres and the authors */
     this.createFilterDropdown(
       "[data-search-genres]",
       this.bookList.genres,
